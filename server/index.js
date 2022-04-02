@@ -9,8 +9,8 @@ app.use(express.json())
 db = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
-	password: 'Ee231197',
-	database: 'tasks'
+	password: '',
+	database: ''
 })
 
 db.connect(err=>{
